@@ -1,0 +1,14 @@
+{
+  "name": "robbiedon-portfolio",
+  "private": true,
+  "type": "module",
+  "description": "Case studies and small open-source utilities extracted from production work.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"packages/**/*.test.ts\"",
+    "check:jsonb": "node packages/neon-jsonb-guard/check.ts"
+  }
+}
